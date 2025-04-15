@@ -1,9 +1,11 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+
+import { NavbarComponent } from './components/navbar/navbar.component';
+import { ListComentarioComponent } from './components/list-comentario/list-comentario.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [ NavbarComponent, ListComentarioComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
