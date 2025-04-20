@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
 import { Comentario } from '../../interfaces/Comentario';
 import { CommonModule } from '@angular/common';
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-list-comentario',
-  imports: [CommonModule],
+  imports: [CommonModule, RouterModule],
   templateUrl: './list-comentario.component.html',
   styleUrl: './list-comentario.component.css'
 })
